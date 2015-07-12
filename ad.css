@@ -1,0 +1,48 @@
+@charset "utf-8";
+img {
+	border:0px;
+}
+.beteen-ad-div {
+	margin:0; padding:0; text-align:left; background-color:#04477C; width:302px; height:242px; position:relative; margin:10px 0; -webkit-text-size-adjust:none;
+	/* chrom和safari浏览器支持 */	-webkit-border-radius:10px;
+	/* 火狐浏览器支持 */-moz-border-radius:10px;
+	/* 最后只剩下opera */border-radius:10px;
+}
+.beteen-img { 
+	background-color:#fff; width:290px; height:200px; position:absolute; top:6px; left:6px;
+	/* chrom和safari浏览器支持 */	-webkit-border-radius:8px;
+	/* 火狐浏览器支持 */-moz-border-radius:8px;
+	/* 最后只剩下opera */border-radius:8px;
+	}
+.beteen-input-div { 
+	width:235px; height:60px; position:absolute; bottom:6px; left:7px;
+	/* chrom和safari浏览器支持 */	-webkit-border-radius:8px;
+	/* 火狐浏览器支持 */-moz-border-radius:8px;
+	/* 最后只剩下opera */border-radius:8px;
+}
+.beteen-tips {  
+	color:#fff; font-weight:bold; position:absolute; top:212px; left:10px; letter-spacing:1px;
+}
+#ad_input { 
+	background-color:#fff; width:185px; height:20px; line-height:20px; position:absolute; top:212px; left:10px; text-indent:3px; z-index:100; padding:0px; font-family:微软雅黑; font-size:11.5px;
+	-moz-box-shadow:inset 0 0px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow:inset 0 0px 0px rgba(0,0,0,0.1);
+	box-shadow:inset 0 0px 0px rgba(0,0,0,0.1);
+	-moz-border-radius:0px;
+	border-radius:0px;
+}
+.beteen-button {
+	width:30px; height:40px; position:absolute; bottom:26px; left:250px;
+	/* chrom和safari浏览器支持 */	-webkit-border-radius:6px;
+	/* 火狐浏览器支持 */-moz-border-radius:6px;
+	/* 最后只剩下opera */border-radius:6px;
+}
+.beteen-img-button1 {
+	cursor:pointer;	position:absolute; top:215px; left:205px; width:17px; height:17px;
+}
+.beteen-img-button2 {
+	cursor:pointer;	position:absolute; top:215px; left:230px; width:17px; height:17px;
+}
+.beteen-label {
+	cursor:pointer;	position:absolute; top:209px; left:251px; width:42px; height:28px;
+}
